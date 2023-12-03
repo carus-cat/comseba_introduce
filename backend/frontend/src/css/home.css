@@ -1,0 +1,379 @@
+@import url("./reset.css");
+@import url("./comon.css");
+
+.home_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_header_right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.home_intro {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.home_intro_left {
+  width: 50%;
+}
+
+.home_intro_left_text {
+  color: var(--main-color);
+}
+
+.home_intro_left_text p:nth-child(2) {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.home_intro_left_rink-btn {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.home_intro_left_sns {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+
+.home_intro_left_sns p {
+  font-size: 40px;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.home_intro_left_sns img {
+  cursor: pointer;
+}
+
+.home_intro_right {
+  width: 50%;
+}
+
+.home_intro_right img {
+  width: 100%;
+}
+
+.home_description {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.home_description p:nth-of-type(1) {
+  margin-top: 3rem;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.home_description span:nth-of-type(2) {
+  color: var(--dark-gray);
+}
+
+.home_description p:nth-of-type(n) {
+  margin-top: 3rem;
+}
+
+.home_description p:nth-of-type(8) {
+  margin-top: 8rem;
+}
+
+.home_description p:nth-of-type(9) {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.home_description span.bold {
+  font-weight: 700;
+  color: var(--dark-gray);
+}
+
+.home_description_logo-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: var(--logo-background);
+}
+
+.home_description_logo {
+  color: white;
+  font-size: 100px;
+  margin-top: -10px;
+  font-weight: 900;
+}
+
+.home_learn-skills_title {
+  color: var(--dark-gray);
+  margin-top: 20rem;
+}
+
+.home_learn-skills_title .bold {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.home_learn-skills_title_flex-box {
+  display: flex;
+  color: var(--main-color);
+}
+
+.home_learn-skills_container {
+  width: 70%;
+  margin: 5rem auto;
+  border: 1px solid var(--dark-gray);
+  border-radius: 10px;
+  padding: 3rem;
+  position: relative;
+}
+
+.home_learn-skills_select-skill {
+  width: 50%;
+  position: absolute;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_learn-skills_skill-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--soft-gray);
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.home_learn-skills_skill-box:hover {
+  background-color: var(--dark-gray);
+  color: white;
+}
+
+.home_learn-skills_select-skill .selected {
+  color: white;
+  background-color: var(--dark-gray);
+}
+
+.home_learn-skills_flex-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home_learn-skills_flex-box:last-child {
+  align-items: flex-end;
+  justify-content: -2rem;
+}
+
+.home_learn-skills_step {
+  width: 20%;
+  border-radius: 20px;
+  color: white;
+  padding: 2rem;
+}
+
+.home_learn-skills_step p:first-child {
+  margin-bottom: 2rem;
+}
+
+.home_learn-skills_flex-box .step1 {
+  height: 100px;
+  background-color: var(--dark-gray);
+}
+
+.home_learn-skills_flex-box .step2 {
+  height: 160px;
+  background-color: var(--main-color);
+}
+
+.home_learn-skills_flex-box .step3 {
+  height: 100px;
+  background-color: var(--soft-gray);
+  color: black;
+}
+
+.home_learn-skills_flex-box .step4 {
+  height: 160px;
+  background-color: var(--soft-gray);
+  color: black;
+}
+
+.home_learn-skills_flex-box .step5 {
+  height: 100px;
+  background-color: var(--dark-gray);
+}
+
+.home_learn-skills_flex-box .step6 {
+  height: 160px;
+  background-color: var(--main-color);
+}
+
+.learn_skills {
+  text-align: center;
+  color: #445964;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.learn_skills_first {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn_skills_second {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn_skills_first_box {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.learn_skills_second_box {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.learn_skills_first_box {
+  text-align: center;
+}
+
+.various {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+span.COMSEBA {
+  color: black;
+}
+
+span.ACADEMY {
+  color: #445964;
+}
+
+.various_language {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+span.VARIOUS {
+  color: #445964;
+}
+
+span.LANGUAGE {
+  color: black;
+}
+
+.various_language_img {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.various_function {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+span.VARIOUS {
+  color: #445964;
+}
+
+span.function {
+  color: black;
+}
+
+.various_function_img {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.why {
+  margin-top: 100px;
+  margin-right: 180px;
+  color: var(--main-color);
+  text-align: right;
+  font-size: 64;
+}
+
+.comseba {
+  width: 334;
+  height: 75;
+  font-size: 64;
+  text-align: right;
+}
+
+.from {
+  text-align: right;
+  font-size: medium;
+  color: var(--main-color);
+  font-size: 30;
+}
+
+.high {
+  text-align: right;
+  font-size: medium;
+  color: var(--main-color);
+  font-size: 30;
+}
+
+.three_box {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box1 {
+  width: 400px;
+  height: 361px;
+  background-color: var(--dark-gray);
+  border-radius: 50px;
+}
+
+.box2 {
+  width: 400px;
+  height: 361px;
+  background-color: var(--main-color);
+  border-radius: 50px;
+}
+
+.box3 {
+  width: 400px;
+  height: 361px;
+  background-color: var(--dark-gray);
+  border-radius: 50px;
+}
