@@ -9,7 +9,7 @@ const app = express();
 
 app.use(express.static("frontend"));
 
-const port = 8080;
+const port = 80;
 
 app.get("/", (req, res) => {
   res.sendFile(_dirname + "/frontend/src/html/home.html");

@@ -1,5 +1,5 @@
 async function getComment() {
-  const response = await fetch("http://localhost:8080/comment");
+  const response = await fetch("https://comseba-dz78.onrender.com/comment");
   const jsonData = await response.json();
 
   return jsonData;
@@ -9,7 +9,7 @@ getComment();
 
 const postComment = async (param) => {
   console.log(param);
-  const res = await fetch("http://localhost:8080/createcomment", {
+  const res = await fetch("https://comseba-dz78.onrender.com/createcomment", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     credentials: "include",
@@ -114,7 +114,7 @@ const deleteComment = async (idx) => {
     idx: idx,
   };
   console.log(param);
-  const res = await fetch(`http://localhost:8080/deletecomment`, {
+  const res = await fetch(`https://comseba-dz78.onrender.com/deletecomment`, {
     method: "DELETE",
     headers: { "Content-Type": "application/json" },
     credentials: "include",
